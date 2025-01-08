@@ -1,0 +1,158 @@
+html{
+    font-size:16px;
+    box-sizing:border-box;
+    font-family:Roboto;
+}
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+    padding:0;
+    margin:0;
+}
+
+.header{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#1F2937;
+    color:white;
+    
+}
+.header strong{
+    color:#F9FAF8;
+    font-size:24px;
+}
+/* header p,nav{
+    
+    flex-basis:50%;
+    justify-content:center;
+} */
+
+nav ul li{
+    list-style:none;
+    
+    align-items:center;
+}
+nav ul{
+    display:flex;
+    gap:3rem;
+
+}
+footer{
+    background-color:#1F2937;
+    text-align: center;
+    color:white;
+    padding:2rem;
+}
+.flexBox.headerBox{
+    background-color:#1F2937;
+    padding:5rem;
+    
+}
+.flexBox{
+    display:flex;
+    justify-content:center;
+}
+.flexBox .paragraph, .imageInput{
+  flex-basis:490px;
+}
+.flexBox .paragraph h1{
+    font-size:48px;
+    font-weight:900;
+    color: #F9FAF8;
+}
+.flexBox .paragraph p{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.flexBox .paragraph button{
+    background-color:#3882F6;
+    color:white;
+    padding:0.35rem 1.2rem;
+    border:1px solid #3882F6;
+    border-radius:0.3rem;
+    
+}
+.imageInput{
+    background-color:#b4b7bd;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:4rem;
+}
+.infoSection{
+    text-align:center;
+    height:auto;
+    padding-bottom:5rem;
+}
+.infoSection h2{
+    font-size:36px;
+    color:#1F2937;
+    font-weight:900;
+    padding:2rem 0;
+}
+.flexBox.infoBox{
+    display:flex;
+    gap:4rem;
+    justify-content:center;
+    
+}
+.flexBox.infoBox div{
+    display:flex;
+    flex-direction:column;
+    width:10rem;
+}
+
+.flexBox.infoBox div div{
+    border:1px solid #3882F6;
+    border-radius:1.2rem;
+    /* flex:1 1 auto; */
+    height:10rem;
+}
+.flexBox.infoBox div p{
+    /* flex:1 1 auto; */
+    /* height:4rem; */
+    font-size:16px;
+    padding:0.3rem 0;
+}
+.quoteSection{
+    padding:5rem 25rem;
+    text-align:center;
+    background-color:#E5E7EB;
+    float:left;
+}
+.quoteSection em{
+
+font:italic 300 36px Roboto;
+color:#1F2937;
+
+}
+.quoteSection strong{
+    display:inline-block;
+}
+.callAction{
+    padding:3rem 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.callAction div{
+    background-color:#3882F6;
+    color:white;
+    padding:1rem 7rem;
+    display:flex;
+}
+.callAction div div{
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.callAction div button{
+    padding:0.2rem 0.7rem;
+    background-color:#3882F6;
+    color:white;
+    border:1px solid white;
+    border-radius:0.25rem;
+    margin-top:20px;
+
+}
